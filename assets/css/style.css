@@ -240,6 +240,9 @@ ion-icon{
 /*-----------------------------------*\
   #HEADER SECTION
 \*-----------------------------------*/
+.header{
+  min-width: 1100px;
+}
 .logo{
   width: 180px;
   height:40px;
@@ -680,6 +683,7 @@ main{
 
 .logobar{
   background-color: #f10e34;
+  min-width: 1100px;
 }
 .logolist{
   display: flex;
@@ -703,6 +707,9 @@ main{
  -moz-transform: translateY(-5px);
  -ms-transform: translateY(-5px);
  -o-transform: translateY(-5px);
+}
+footer{
+  min-width: 1100px;
 }
 .footer-top{
   padding-block: 50px 20px;
